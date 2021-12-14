@@ -956,6 +956,8 @@ MonoBehaviour:
   currentHelath: 0
   projectilePrefab: {fileID: 6314661140715394278, guid: 399d211caa3a04b34aef007de1ef8f29, type: 3}
   audioSource: {fileID: 0}
+  playHit: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
+  ThrowCog: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
 --- !u!212 &371788139
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13515,6 +13517,8 @@ MonoBehaviour:
   enemyAnimator: {fileID: 0}
   broken: 1
   smokeEffect: {fileID: 1792199583}
+  audioSource: {fileID: 0}
+  hitSound: {fileID: 0}
 --- !u!1 &1825672065
 GameObject:
   m_ObjectHideFlags: 0
